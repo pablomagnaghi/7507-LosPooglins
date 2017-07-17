@@ -1,43 +1,0 @@
-9
-
-dir
-147
-http://athlonazo.homeip.net/svn/tp-7507/src
-http://athlonazo.homeip.net/svn
-
-
-
-2008-12-19T00:31:09.350345Z
-145
-rodrigo
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-226a07e1-ba1c-4a64-ae07-3cd113e50457
-
-modelo
-dir
-
-test
-dir
-
-control
-dir
-
-main
-dir
-
-vista
-dir
-
