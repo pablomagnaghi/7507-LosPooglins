@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/134/tp-7507/src/modelo/bloque
+END
+BloqueAgujeroNegro.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/83/tp-7507/src/modelo/bloque/BloqueAgujeroNegro.java
+END
+BloqueNaveSalida.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/83/tp-7507/src/modelo/bloque/BloqueNaveSalida.java
+END
+BloqueNaveEntrada.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/134/tp-7507/src/modelo/bloque/BloqueNaveEntrada.java
+END
+Bloque.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/99/tp-7507/src/modelo/bloque/Bloque.java
+END
+BloqueHielo.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/83/tp-7507/src/modelo/bloque/BloqueHielo.java
+END
+BloquePooglinCongelado.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/83/tp-7507/src/modelo/bloque/BloquePooglinCongelado.java
+END
+BloqueRoca.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/99/tp-7507/src/modelo/bloque/BloqueRoca.java
+END
+BloqueFuego.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/84/tp-7507/src/modelo/bloque/BloqueFuego.java
+END
+BloqueTunelElectro.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/122/tp-7507/src/modelo/bloque/BloqueTunelElectro.java
+END
+BloqueTierra.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/134/tp-7507/src/modelo/bloque/BloqueTierra.java
+END

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+
+<project basedir="." default="build" name="tp-7507">
+
+	<path id="tp-7507.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="${ANT_HOME}/lib/junit.jar"/>
+    </path>
+	
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="." excludes="**/*.java, **/*.jar, **/*.launch, **/*.project, **/*.classpath, save.bin, build.xml, .settings/*, doc/*" />
+        </copy>
+    </target>
+	
+    <target depends="init" name="build">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" destdir="bin">
+            <src path="src"/>
+            <classpath refid="tp-7507.classpath"/>
+        </javac>
+    </target>
+	
+    <target name="test">
+        <junit fork="yes">
+        	<formatter type="brief" usefile="false"/>
+            <test name="test.BloqueTest"/>
+            <test name="test.NivelTest"/>
+            <test name="test.PooglinTest"/>
+            <classpath refid="tp-7507.classpath"/>
+        </junit>
+    </target>
+	
+	<target depends="build" name="run">
+		<java classname="main.Juego" failonerror="true" fork="yes">
+			<classpath refid="tp-7507.classpath" />
+		</java>
+	</target>
+	
+	
+    <target depends="build" name="jar">
+        <jar destfile="pooglin.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="main.Juego"/>
+            </manifest>
+            <fileset dir="bin"/>
+        </jar>
+    </target>
+	
+</project>
